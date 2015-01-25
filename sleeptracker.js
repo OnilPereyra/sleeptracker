@@ -21,7 +21,7 @@ accel.on("ready", function () {
            last_movement_time = Date.now();
            if( minutes > 5 ) {
              // send text
-             sendText( number, twilio_num, "Dog slept for " + Math.round( minutes ) + " minutes");
+             sendText( number, twilio_num, "You slept for " + Math.round( minutes ) + " minutes");
            }
          }
      });
